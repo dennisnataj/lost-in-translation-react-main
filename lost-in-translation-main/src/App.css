@@ -1,0 +1,110 @@
+body{
+    background-color:#ceac8d;
+    font-family: 'EB Garamond';
+}
+nav{
+    background-color: #e7cbb0;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.ul-nav{
+    text-align: right;
+}
+
+.navText{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logIn, .translation, .profile{
+    font-size: 60px;
+    text-decoration: underline 4px;
+}
+
+.profile{
+    margin-top: -10px;
+}
+
+.ul-list{
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+li{
+    margin: 5px;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+}
+
+.translationOutput{
+    margin-top: 20px;
+}
+
+.translationForm{
+    margin-top: -50px;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 40px;
+    display: block;
+    margin-top: -30px;
+}
+
+.translationText{
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.translationInput, .usernameInput{
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 5px;
+}
+
+.btnContinue,.btnTranslate {
+    padding: 4px;
+    display: block;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: auto;
+    text-align: center;
+    background-color: #854442;
+    color: white;
+    margin-top: 10px;
+}
+
+.btnClearTranslations, .btnLogout, .btnBackToTranslator{
+    padding: 4px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: auto;
+    text-align: center;
+    background-color: #854442;
+    color: white;
+}
+
+.translationList{
+    margin-right: 40px;
+}
+
+.btnBackToTranslator{
+    background-color: rgb(235, 220, 220);
+}
+
+.translationListDiv{
+    margin: auto;
+    width: 50px;
+}
